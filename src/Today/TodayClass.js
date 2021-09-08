@@ -11,29 +11,29 @@ import { Button, Input } from "antd";
 import TextArea from "antd/lib/input/TextArea";
 
 const TodayClass = ({ r, Greet, quote, setQuote }) => {
-  // const [quote, setQuote] = useState([
-  //   {
-  //     id: 1,
-  //     name: "Peter",
-  //     myQuote: "This is the day that the Lord has Made.",
-  //     time: Date.now(),
-  //     avatar: img1,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Mr Joe",
-  //     myQuote: "I will rejoice and be glad in it...!",
-  //     time: Date.now(),
-  //     avatar: img2,
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Mr Sam",
-  //     myQuote: "Let's practice out our Code 10times per day, at least!!!",
-  //     time: Date.now(),
-  //     avatar: img3,
-  //   },
-  // ]);
+  const [quote, setQuote] = useState([
+    {
+      id: 1,
+      name: "Peter",
+      myQuote: "This is the day that the Lord has Made.",
+      time: Date.now(),
+      avatar: img1,
+    },
+    {
+      id: 2,
+      name: "Mr Joe",
+      myQuote: "I will rejoice and be glad in it...!",
+      time: Date.now(),
+      avatar: img2,
+    },
+    {
+      id: 3,
+      name: "Mr Sam",
+      myQuote: "Let's practice out our Code 10times per day, at least!!!",
+      time: Date.now(),
+      avatar: img3,
+    },
+  ]);
 
   const deleteItem = (id) => {
     const removeItem = quote.filter((el) => el.id !== id);
