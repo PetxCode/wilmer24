@@ -1,0 +1,88 @@
+.container {
+  color: red;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  transform: scale(1);
+  transition: all 350ms;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.input {
+  margin-bottom: 100px;
+  width: 300px;
+}
+
+.inputButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container__display {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 40px;
+  height: 150px;
+  align-items: center;
+}
+
+.container__displayImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.container_Pix {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.container_HP {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 5px 0 0;
+  background-color: gray;
+  object-fit: cover;
+}
+
+.img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
